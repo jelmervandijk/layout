@@ -14,11 +14,69 @@ ul li{
 }
 header{
 	background-color: #e22c26;
+	margin: 0 auto;
 }
-main p {
-margin: 0 auto;
-text-decoration: none;
-}
-main h1{
 
+
+article img{
+	width: 400px;
+	height: 800px;
+}
+
+#faker{
+	width: 400px;
+	height: 300px;
+	display: block;
+	margin: auto;	
+}
+
+
+aside{
+  position: fixed;
+  float:left;
+  width:25%;
+  top: 150px;
+  bottom: 0px;
+}
+
+footer{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #9fa3a8;
+    margin: 0px;
+}
+section{
+	text-align: center;
+	margin-bottom: 50px
+}
+#wrapper{
+	align-items: flex-start;
+}
+
+section h2{
+	margin: 0 auto;
+}
+header h1{margin: 0 auto;
+
+}
+header p{
+	margin: 0 auto;
+}
+
+header ul{
+	margin: 0 auto;
+}
+section p{
+	margin: 0 auto;
+	width: 50;
+	text-align:left;
+}
+section h3{
+	margin: 0 auto;
+	width: 50;
+	text-align:left;
+}
+section{
+	width: 70%;
 }
