@@ -23,7 +23,7 @@ article img{
 	height: 800px;
 }
 
-#faker{
+.faker{
 	width: 400px;
 	height: 300px;
 	display: block;
@@ -33,10 +33,12 @@ article img{
 
 aside{
   position: fixed;
-  float:left;
+  float: right;
   width:25%;
   top: 150px;
   bottom: 0px;
+  right: 0px;
+  background-color: #fcfcfc;
 }
 
 footer{
@@ -79,4 +81,8 @@ section h3{
 }
 section{
 	width: 70%;
+}
+#stadion{
+	width: 1000px;
+	height: 500px;
 }
