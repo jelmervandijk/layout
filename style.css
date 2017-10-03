@@ -1,17 +1,28 @@
 body{
 	font-family: sans-serif;
 	margin:0 auto;
-}
-main h1{
-	font-size: 200%;
-	margin: 0 auto;
-}
-ul li{
-	display: inline-block;
-	color: #7700ff;
-	padding: 15px;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 header{
 	background-color: #e22c26;
 	margin: 0 auto;
@@ -52,10 +63,6 @@ section{
 	text-align: center;
 	margin-bottom: 50px
 }
-#wrapper{
-	align-items: flex-start;
-}
-
 section h2{
 	margin: 0 auto;
 }
@@ -85,4 +92,15 @@ section{
 #stadion{
 	width: 1000px;
 	height: 500px;
+}
+.optic{
+	text-align: left;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+}
+.child{
+	width: 50%;
+	margin: 0px;
 }
