@@ -11,9 +11,6 @@ ul {
     background-color: #333;
 }
 
-li {
-    float: left;
-}
 
 li a {
     display: block;
@@ -21,6 +18,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: left
 }
 
 header{
@@ -103,4 +101,7 @@ section{
 .child{
 	width: 50%;
 	margin: 0px;
+}	
+.readmore{
+	text-align: center;
 }
